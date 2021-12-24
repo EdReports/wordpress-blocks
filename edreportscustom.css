@@ -1,0 +1,79 @@
+/* component*/
+
+.fello-tab ul.uagb-tabs__panel {
+    max-width: 30% !important;
+}
+
+.fello-tab li.uagb-tab {
+    font-family: Rockwell;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: right;
+    color: #174063;
+    border: 0 !important;
+    background: transparent !important
+}
+
+.fello-tab .uagb-tabs__panel .uagb-tab span {
+    font-family: Rockwell;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: right;
+    color: #174063;
+    border: 0 !important;
+    background: transparent !important
+}
+
+.fello-tab .uagb-tabs__panel .uagb-tab.uagb-tabs__active span {
+    color: #174063;
+    border-bottom: 3px solid #0096cb !important;
+}
+
+.fello-tab .uagb-tabs__body-wrap {
+    max-width: 70% !important;
+    border: 0;
+    padding: 45px 47px 44px;
+    border-radius: 3px;
+    background-color: #ebf7fb;
+    font-family: Proxima Nova Regular;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #0a3e59;
+}
+
+.list-h2 h2.stk-block-heading__text {
+    margin: 0;
+    padding-left: 16px;
+    border-left: 4px solid #0096cb !important;
+    margin-bottom: 20px;
+    font-family: Proxima Nova Regular !important;
+}
+
+.wp-block-stackable-heading.list-h2 {
+    min-height: 83px;
+}
+
+@media only screen and (max-width: 600px) {
+    .fello-tab.uagb-tabs__wrap {
+        display: block;
+    }
+    .fello-tab ul.uagb-tabs__panel,
+    .fello-tab .uagb-tabs__body-wrap {
+        max-width: 100% !important;
+    }
+    .fello-tab .uagb-tabs__body-wrap {
+        padding: 45px 0px 44px;
+    }
+}
